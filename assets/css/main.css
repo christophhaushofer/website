@@ -669,7 +669,8 @@ input, select, textarea {
 	display: block;
 	margin: 2.5rem 0;
 	width: 100%;
-	/* keine Höhe hier festlegen */
+	max-height: clamp(160px, 30vh, 300px);
+	object-fit: cover;
 	}
 
 	.image.main img {
