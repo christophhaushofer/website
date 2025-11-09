@@ -1627,37 +1627,4 @@ input, select, textarea {
 			opacity: 0;
 		}
 
-		/* -------------------------------------------------
-   Custom: Einheitliche Bildproportionen pro Sektion
-   ------------------------------------------------- */
-
-.image.main {
-  position: relative;
-  width: 100%;
-  overflow: hidden;
-  border-radius: 4px;
-  margin: 2rem 0;
-}
-
-.image.main img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  border-radius: 4px;
-}
-
-/* Abschnittsspezifische Seitenverhältnisse */
-article#intro .image.main { aspect-ratio: 21 / 9; }
-article#work .image.main { aspect-ratio: 3 / 2; }
-article#about .image.main { aspect-ratio: 4 / 3; }
-article#contact .image.main { aspect-ratio: 16 / 9; }
-
-/* Portrait-Bilder (optional) */
-.image.main.portrait {
-  aspect-ratio: 3 / 4;
-}
-
-.image.main.portrait img {
-  object-fit: contain;
-  background-color: #111;
-}
+		
