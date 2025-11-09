@@ -1664,5 +1664,5 @@ input, select, textarea {
 	.image.main img {
 		width: 100%;
 		height: auto;
-		object-fit: contain;
+		object-fit: cover;
 		}
